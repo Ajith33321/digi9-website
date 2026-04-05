@@ -2,15 +2,13 @@
 <?php include 'includes/header.php'; ?>
 
 <!-- ##### PAGE HEADER ##### -->
-<div class="page-header">
-  <div class="container">
-    <div class="reveal">
-      <div class="eyebrow">Get in Touch</div>
-      <h1 class="h1-mega">Tell Us What You Want to <span class="text-gradient">Build</span></h1>
-      <p class="subtext">We'll review your message and get back to you within one business day to set up an initial conversation.</p>
-      <div class="page-header-line"></div>
+<div class="page-header section-alt" style="padding-top: 160px; padding-bottom: 80px; position:relative;">
+    <div class="light-shaft"></div>
+    <div class="container" style="display:flex; flex-direction:column; align-items:flex-start;">
+        <div class="reveal eyebrow">Get in Touch</div>
+        <h1 class="h1-mega reveal" data-depth="15">Tell Us What You Want to <span class="text-gradient">Build</span></h1>
+        <p class="subtext reveal">We'll review your message and get back to you within one business day to set up an initial conversation.</p>
     </div>
-  </div>
 </div>
 
 <!-- ##### CONTACT SECTION ##### -->
@@ -19,10 +17,10 @@
     <div class="grid-2" style="align-items:start;">
       
       <!-- Info Col -->
-      <div class="reveal">
+      <div class="reveal" data-depth="5" style="max-width:100%;">
         <div class="eyebrow" style="margin-top:0;">Contact Information</div>
         <h2 class="section-title">Let's Start a Conversation</h2>
-        <p class="body-text" style="margin-bottom:36px;">Whether you have a fully formed brief or just a rough idea — we're happy to talk through it and help you figure out the right approach.</p>
+        <p class="body-text" style="margin-bottom:36px; color:rgba(255,255,255,0.73);">Whether you have a fully formed brief or just a rough idea — we're happy to talk through it and help you figure out the right approach.</p>
         
         <div style="display:flex; flex-direction:column; gap:20px;">
           <div style="display:flex; gap:16px; align-items:flex-start;">

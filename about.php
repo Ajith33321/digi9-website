@@ -2,15 +2,13 @@
 <?php include 'includes/header.php'; ?>
 
 <!-- ##### PAGE HEADER ##### -->
-<div class="page-header">
-  <div class="container">
-    <div class="reveal">
-      <div class="eyebrow">The Digi9 Story</div>
-      <h1 class="h1-mega">A Software Engineering Company Focused on <span class="text-gradient">Execution</span></h1>
-      <p class="subtext">We started Digi9 with a simple observation: most businesses don't need more "digital transformation" buzzwords — they need software that actually works for their specifically complex workflows.</p>
-      <div class="page-header-line"></div>
+<div class="page-header section-alt" style="padding-top: 160px; padding-bottom: 80px; position:relative;">
+    <div class="light-shaft"></div>
+    <div class="container" style="display:flex; flex-direction:column; align-items:flex-start;">
+        <div class="reveal eyebrow">The Digi9 Story</div>
+        <h1 class="h1-mega reveal" data-depth="15">A Software Engineering Company Focused on <span class="text-gradient">Execution</span></h1>
+        <p class="subtext reveal">We started Digi9 with a simple observation: most businesses don't need more "digital transformation" buzzwords — they need software that actually works for their specifically complex workflows.</p>
     </div>
-  </div>
 </div>
 
 <!-- ##### ABOUT CONTENT ##### -->
@@ -25,18 +23,19 @@
 </section>
 
 <!-- ##### INDUSTRIES ##### -->
-<section class="section" style="background:var(--off-white); padding-top:64px;">
-  <div class="container">
-    <div class="section-label">Industries</div>
-    <h2 class="section-title" style="margin-bottom:32px;">Sectors We've Worked In</h2>
-    <div style="display:flex; flex-wrap:wrap; gap:12px;">
-      <div style="padding: 10px 22px; border: 1.5px solid var(--gray-200); border-radius: 100px; font-size: 14px; color: var(--gray-600);">🏛️ Government</div>
-      <div style="padding: 10px 22px; border: 1.5px solid var(--gray-200); border-radius: 100px; font-size: 14px; color: var(--gray-600);">🎓 Education</div>
-      <div style="padding: 10px 22px; border: 1.5px solid var(--gray-200); border-radius: 100px; font-size: 14px; color: var(--gray-600);">🏥 Healthcare</div>
-      <div style="padding: 10px 22px; border: 1.5px solid var(--gray-200); border-radius: 100px; font-size: 14px; color: var(--gray-600);">💰 Finance</div>
-      <div style="padding: 10px 22px; border: 1.5px solid var(--gray-200); border-radius: 100px; font-size: 14px; color: var(--gray-600);">🏠 Real Estate</div>
+<section class="section section-alt" style="position:relative;">
+    <div class="light-shaft"></div>
+    <div class="container">
+        <div class="reveal eyebrow">Industries</div>
+        <h2 class="section-title reveal" style="margin-bottom:32px;">Sectors We've Impacted</h2>
+        <div style="display:flex; flex-wrap:wrap; gap:16px;" class="reveal" data-depth="10">
+            <div class="card" style="padding: 16px 24px; height:auto; border-radius:100px; display:flex; align-items:center; gap:10px;">🏛️ Government</div>
+            <div class="card" style="padding: 16px 24px; height:auto; border-radius:100px; display:flex; align-items:center; gap:10px;">🎓 Education</div>
+            <div class="card" style="padding: 16px 24px; height:auto; border-radius:100px; display:flex; align-items:center; gap:10px;">🏥 Healthcare</div>
+            <div class="card" style="padding: 16px 24px; height:auto; border-radius:100px; display:flex; align-items:center; gap:10px;">💰 Finance</div>
+            <div class="card" style="padding: 16px 24px; height:auto; border-radius:100px; display:flex; align-items:center; gap:10px;">🏠 Real Estate</div>
+        </div>
     </div>
-  </div>
 </section>
 
 <?php include 'includes/footer.php'; ?>

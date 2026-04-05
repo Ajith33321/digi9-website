@@ -47,6 +47,12 @@
     </div>
 </footer>
 
+<!-- Global Fixed Mascot Container -->
+<div class="mascot-container">
+    <div class="hero-glow"></div>
+    <canvas id="mascot-canvas"></canvas>
+</div>
+
 <script src="assets/js/navbar.js"></script>
 <script src="assets/js/scroll-effects.js"></script>
 <script src="assets/js/main.js"></script>

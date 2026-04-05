@@ -2,15 +2,13 @@
 <?php include 'includes/header.php'; ?>
 
 <!-- ##### PAGE HEADER ##### -->
-<div class="page-header">
-  <div class="container">
-    <div class="reveal">
-      <div class="eyebrow">Solutions</div>
-      <h1 class="h1-mega">Business Solutions Powered by <span class="text-gradient">AI and Engineering</span></h1>
-      <p class="subtext">We deliver end-to-end solutions across automation, integration, and AI — tailored to specific industries and operational challenges.</p>
-      <div class="page-header-line"></div>
+<div class="page-header section-alt" style="padding-top: 160px; padding-bottom: 80px; position:relative;">
+    <div class="light-shaft"></div>
+    <div class="container" style="display:flex; flex-direction:column; align-items:flex-start;">
+        <div class="reveal eyebrow">Solutions</div>
+        <h1 class="h1-mega reveal" data-depth="15">Business Solutions Powered by <span class="text-gradient">AI and Engineering</span></h1>
+        <p class="subtext reveal">We deliver end-to-end solutions across automation, integration, and AI — tailored to specific industries and operational challenges.</p>
     </div>
-  </div>
 </div>
 
 <!-- ##### SOLUTIONS GRID ##### -->
@@ -18,47 +16,23 @@
   <div class="container">
     <div class="grid-2">
       
-      <div class="card reveal-card">
+      <div class="card reveal-card" data-depth="5">
         <div style="font-size:32px; margin-bottom:24px;">⚙️</div>
         <h3 class="card-title">Process Automation</h3>
-        <p class="body-text" style="margin-bottom:20px;">Eliminate manual, repetitive work across departments. From document processing to multi-step approval workflows — we automate the full cycle.</p>
+        <p class="body-text" style="margin-bottom:20px; color:rgba(255,255,255,0.7);">Eliminate manual, repetitive work across departments. From document processing to multi-step approval workflows — we automate the full cycle.</p>
         <ul class="tick-list">
-          <li>Document and data processing automation</li>
-          <li>Approval and notification workflows</li>
-          <li>Scheduled reporting and data pipelines</li>
+          <li>Document and data processing</li>
+          <li>Approval and notification cycles</li>
         </ul>
       </div>
 
-      <div class="card reveal-card">
+      <div class="card reveal-card" data-depth="10">
         <div style="font-size:32px; margin-bottom:24px;">🔗</div>
         <h3 class="card-title">System Integration</h3>
-        <p class="body-text" style="margin-bottom:20px;">Connect disparate tools and platforms into a single, coherent system. No more manual data transfer or siloed operations.</p>
+        <p class="body-text" style="margin-bottom:20px; color:rgba(255,255,255,0.7);">Connect disparate tools and platforms into a single, coherent system. No more manual data transfer or siloed operations.</p>
         <ul class="tick-list">
-          <li>API development and third-party integrations</li>
+          <li>API and third-party integrations</li>
           <li>Legacy system modernisation</li>
-          <li>Cross-platform data synchronization</li>
-        </ul>
-      </div>
-
-      <div class="card reveal-card">
-        <div style="font-size:32px; margin-bottom:24px;">📊</div>
-        <h3 class="card-title">Analytics and Reporting</h3>
-        <p class="body-text" style="margin-bottom:20px;">Turn raw operational data into clear, actionable insight. Custom dashboards and reporting tools built for decision-makers.</p>
-        <ul class="tick-list">
-          <li>Executive dashboards</li>
-          <li>Operational reporting systems</li>
-          <li>Automated data visualization</li>
-        </ul>
-      </div>
-
-      <div class="card reveal-card">
-        <div style="font-size:32px; margin-bottom:24px;">🤖</div>
-        <h3 class="card-title">AI-Powered Intelligence</h3>
-        <p class="body-text" style="margin-bottom:20px;">Add intelligence to your existing systems. From recommendation engines to anomaly detection — AI that solves specific business problems.</p>
-        <ul class="tick-list">
-          <li>Predictive models for operations</li>
-          <li>AI-assisted decision workflows</li>
-          <li>Automated agentic systems</li>
         </ul>
       </div>
 

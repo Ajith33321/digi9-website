@@ -147,6 +147,17 @@
     if (scrollPercent < 0) scrollPercent = 0;
     if (scrollPercent > 1) scrollPercent = 1;
 
+    // Handle Mascot Visibility (Fade out at footer)
+    const mascotContainer = canvas.parentElement;
+    if (mascotContainer) {
+      if (scrollPercent > 0.85) {
+        let opacity = 1 - (scrollPercent - 0.85) * 6.6; 
+        mascotContainer.style.opacity = Math.max(0, opacity).toString();
+      } else {
+        mascotContainer.style.opacity = '1';
+      }
+    }
+
     // Map percentage to frame index
     let frameIndex = Math.floor(scrollPercent * (TOTAL_FRAMES - 1));
     if (frameIndex !== currentFrame) {

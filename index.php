@@ -152,10 +152,4 @@ require_once 'includes/header.php';
     </div>
 </section>
 
-<!-- Global Fixed Mascot Container -->
-<div class="mascot-container">
-    <div class="hero-glow"></div>
-    <canvas id="mascot-canvas"></canvas>
-</div>
-
 <?php require_once 'includes/footer.php'; ?>

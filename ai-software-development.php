@@ -2,15 +2,13 @@
 <?php include 'includes/header.php'; ?>
 
 <!-- ##### PAGE HEADER ##### -->
-<div class="page-header">
-  <div class="container">
-    <div class="reveal">
-      <div class="eyebrow">Expertise</div>
-      <h1 class="h1-mega">Custom <span class="text-gradient">AI Software</span> Development Company in Bangalore</h1>
-      <p class="subtext">Digi9 is an AI software development company in India specializing in custom AI software development services, including LLM-powered applications, RAG implementations, and autonomous agentic systems.</p>
-      <div class="page-header-line"></div>
+<div class="page-header section-alt" style="padding-top: 160px; padding-bottom: 80px; position:relative;">
+    <div class="light-shaft"></div>
+    <div class="container" style="display:flex; flex-direction:column; align-items:flex-start;">
+        <div class="reveal eyebrow">Expertise</div>
+        <h1 class="h1-mega reveal" data-depth="15">Custom <span class="text-gradient">AI Software</span> Development Company in Bangalore</h1>
+        <p class="subtext reveal">Digi9 is an AI software development company in India specializing in custom AI software development services, including LLM-powered applications, RAG implementations, and autonomous agentic systems.</p>
     </div>
-  </div>
 </div>
 
 <!-- ##### SERVICE DETAIL ##### -->
