@@ -56,27 +56,6 @@ require_once 'includes/header.php';
             <div class="grid-2">
                 <div>
                     <h2 class="section-title" style="margin-bottom: 24px;">Mobile Application Development</h2>
-                    <p class="body-text" style="font-weight: 500; color: var(--primary);">AI mobile app development services for businesses building next-generation applications.</p>
-                </div>
-                <div>
-                    <ul class="tick-list">
-                        <li>Custom AI app development company workflows</li>
-                        <li>Native iOS and Android delivery</li>
-                        <li>Machine learning app development company systems</li>
-                    </ul>
-                    <a href="mobile-application-development.php" class="btn-outline mt-4">View Service →</a>
-                </div>
-            </div>
-        </div>
-
-        <!-- Service 4 -->
-        <div style="margin-bottom: 80px; padding-bottom: 80px; border-bottom: 1px solid var(--border);">
-            <div class="grid-2">
-                <div>
-                    <h2 class="section-title" style="margin-bottom: 24px;">Custom Software Development</h2>
-                    <p class="body-text" style="font-weight: 500; color: var(--primary);">We design systems around business workflows, not templates.</p>
-                </div>
-                <div>
                     <ul class="tick-list">
                         <li>Enterprise internal systems</li>
                         <li>Custom workflow software</li>

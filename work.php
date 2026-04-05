@@ -82,14 +82,27 @@
               <p class="body-text" style="font-size:13.5px;">Existing platform couldn't scale and lacked personalisation capabilities.</p>
             </div>
             <div>
-              <div style="font-size:11px; font-weight:700; letter-spacing:1px; text-transform:uppercase; color:var(--gray-400); margin-bottom:6px;">Solution</div>
-              <p class="body-text" style="font-size:13.5px;">Scaled architecture and integrated AI features including adaptive content and recommendations.</p>
-            </div>
-            <div>
-              <div style="font-size:11px; font-weight:700; letter-spacing:1px; text-transform:uppercase; color:var(--gray-400); margin-bottom:6px;">Outcome</div>
-              <p class="body-text" style="font-size:13.5px;">Supported large user volumes with improved engagement and learning outcomes.</p>
-            </div>
-          </div>
+    <div class="grid-2">
+      
+      <!-- Work 1 -->
+      <div class="card reveal-card">
+        <div class="eyebrow">Government & Public Sector</div>
+        <h3 class="card-title">Large-Scale ERP Platform</h3>
+        <p class="body-text" style="margin-bottom:24px;">Built a comprehensive system to digitize complex government workflows, improving transparency and operational speed across multiple departments.</p>
+        <div style="display:flex; gap:8px; flex-wrap:wrap;">
+          <span style="font-size:11px; padding:4px 10px; background:rgba(30,144,255,0.1); color:var(--accent); border-radius:4px; font-weight:600;">Custom ERP</span>
+          <span style="font-size:11px; padding:4px 10px; background:rgba(30,144,255,0.1); color:var(--accent); border-radius:4px; font-weight:600;">Workflow Automation</span>
+        </div>
+      </div>
+
+      <!-- Work 2 -->
+      <div class="card reveal-card">
+        <div class="eyebrow">Education Technology</div>
+        <h3 class="card-title">Training Management System</h3>
+        <p class="body-text" style="margin-bottom:24px;">Developed a centralized platform to manage the entire training lifecycle — from scheduling and attendance to automated reporting and certification.</p>
+        <div style="display:flex; gap:8px; flex-wrap:wrap;">
+          <span style="font-size:11px; padding:4px 10px; background:rgba(30,144,255,0.1); color:var(--accent); border-radius:4px; font-weight:600;">EdTech</span>
+          <span style="font-size:11px; padding:4px 10px; background:rgba(30,144,255,0.1); color:var(--accent); border-radius:4px; font-weight:600;">Dashboard</span>
         </div>
       </div>
 
@@ -98,12 +111,15 @@
 </section>
 
 <!-- ##### FINAL CTA ##### -->
-<div class="cta-section" style="background:var(--navy); padding:96px 0; text-align:center; color:var(--white); position:relative; overflow:hidden;">
+<section class="cta-section">
+  <div class="cta-glow"></div>
   <div class="container">
-    <h2 class="section-title" style="color:var(--white); margin-bottom:16px;">Want to See More?</h2>
-    <p class="lead-text" style="color:rgba(255,255,255,0.6); margin:0 auto 36px auto;">Discuss a similar project for your business.</p>
-    <a href="contact.php" class="btn-primary" style="background:var(--accent-light);">Talk to Digi9 →</a>
+    <div class="reveal text-center">
+      <h2 class="section-title" style="margin-bottom:16px;">Have a Complex Project in Mind?</h2>
+      <p class="subtext" style="margin:0 auto 36px auto;">Let's talk through your requirements and see how we can help.</p>
+      <a href="contact.php" class="btn-primary">Book a Consultation →</a>
+    </div>
   </div>
-</div>
+</section>
 
 <?php include 'includes/footer.php'; ?>
