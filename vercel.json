@@ -6,7 +6,8 @@
     { "src": "data/**", "use": "@vercel/static" }
   ],
   "routes": [
+    { "handle": "filesystem" },
     { "src": "/(.*)\\.php", "dest": "/$1.php" },
-    { "src": "/(.*)", "dest": "/$1.php" }
+    { "src": "/((?!assets|data|api).*)", "dest": "/$1.php" }
   ]
 }

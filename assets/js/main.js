@@ -119,7 +119,7 @@
   for (let i = 1; i <= TOTAL_FRAMES; i++) {
     const img = new Image();
     const frameNumber = i.toString().padStart(3, '0');
-    img.src = `assets/mascot/ezgif-frame-${frameNumber}.png`;
+    img.src = `/assets/mascot/ezgif-frame-${frameNumber}.png`;
     img.onload = () => { imagesLoaded++; drawFrame(); };
     img.onerror = () => { imagesLoaded++; };
     frames.push(img);
