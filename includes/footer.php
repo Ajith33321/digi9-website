@@ -53,8 +53,8 @@
     <canvas id="mascot-canvas"></canvas>
 </div>
 
-<script src="assets/js/navbar.js"></script>
-<script src="assets/js/scroll-effects.js"></script>
-<script src="assets/js/main.js"></script>
+<script src="/assets/js/navbar.js"></script>
+<script src="/assets/js/scroll-effects.js"></script>
+<script src="/assets/js/main.js"></script>
 </body>
 </html>

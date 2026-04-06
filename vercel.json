@@ -7,7 +7,10 @@
   ],
   "routes": [
     { "handle": "filesystem" },
+    { "src": "/assets/(.*)", "dest": "/assets/$1" },
+    { "src": "/data/(.*)", "dest": "/data/$1" },
+    { "src": "/api/(.*)", "dest": "/api/$1" },
     { "src": "/(.*)\\.php", "dest": "/$1.php" },
-    { "src": "/((?!assets|data|api).*)", "dest": "/$1.php" }
+    { "src": "/((?!assets|data|api|.*\\.).*)", "dest": "/$1.php" }
   ]
 }

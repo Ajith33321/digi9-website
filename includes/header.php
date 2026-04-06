@@ -13,7 +13,7 @@ if (!isset($metaDescription)) $metaDescription = "Digi9 is a custom AI software 
     <meta name="description" content="<?php echo htmlspecialchars($metaDescription); ?>">
     
     <!-- Design System CSS -->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     
     <!-- Favicon placeholder -->
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%231E90FF' rx='20'/%3E%3Ctext x='50' y='65' fill='%23FFF' font-family='Arial' font-size='50' font-weight='bold' text-anchor='middle'%3ED9%3C/text%3E%3C/svg%3E">
