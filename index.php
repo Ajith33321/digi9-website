@@ -10,23 +10,23 @@ require_once 'includes/header.php';
     <div class="container">
         <div class="section-split" style="align-items: center;">
             <div class="reveal">
-                <div class="eyebrow" data-prlx-mouse="0.18">✦ &nbsp;AI-Powered Solutions &nbsp;·&nbsp; Bangalore</div>
-                <h1 class="h1-mega" data-prlx-mouse="0.11" style="margin-bottom: 8px;">
+                <div class="eyebrow">✦ &nbsp;AI-Powered Solutions &nbsp;·&nbsp; Bangalore</div>
+                <h1 class="h1-mega" style="margin-bottom: 8px;">
                     AI Software and App Development Company in Bangalore
                 </h1>
-                <p data-prlx-mouse="0.08" style="font-size: 14px; font-weight: 500; color: var(--accent-cyan); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 32px; opacity: 0.8;">
+                <p style="font-size: 14px; font-weight: 500; color: var(--accent-cyan); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 32px; opacity: 0.8;">
                     Builds What Actually Works
                 </p>
-                <p class="subtext" data-prlx-mouse="0.05">
+                <p class="subtext">
                     We build intelligent systems, automation tools, and scalable applications engineered specifically for your complex operations.
                 </p>
-                <div class="btn-group" data-prlx-mouse="0.03" style="margin-bottom: 40px;">
+                <div class="btn-group" style="margin-bottom: 40px;">
                     <a href="contact.php" class="btn-primary">Book a Consultation</a>
                     <a href="services.php" class="btn-outline">Explore Services →</a>
                 </div>
-
+                
                 <!-- Trust / Stats Strip -->
-                <div class="stats-strip" data-prlx-mouse="0.01">
+                <div class="stats-strip">
                     <span>50+ Projects</span> <span class="stats-sep">·</span>
                     <span>8+ Years</span> <span class="stats-sep">·</span>
                     <span>30+ Clients</span> <span class="stats-sep">·</span>
@@ -35,7 +35,7 @@ require_once 'includes/header.php';
             </div>
             
             <!-- Mascot Visual Placeholder -->
-            <div class="reveal mascot-column" data-prlx-mouse="0.28" style="display: flex; justify-content: flex-end;">
+            <div class="reveal mascot-column" style="display: flex; justify-content: flex-end;">
                 <div class="mascot-placeholder">
                     <div class="mascot-ring"></div>
                     <div style="font-size: 13px; color: var(--text-muted); font-weight: 600; letter-spacing: 1px;">[ MASCOT ]</div>

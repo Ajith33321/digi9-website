@@ -165,23 +165,6 @@
   will-change: transform;
 }
 
-/* ── Mouse parallax depth elements ── */
-[data-prlx-mouse],
-[data-prlx-scroll] {
-  will-change: transform;
-}
-
-/* ── Card 3D tilt support ── */
-.card {
-  transform-style: preserve-3d;
-}
-.card * {
-  pointer-events: none; /* Prevent child elements from interfering with tilt mousemove */
-}
-.card a, .card button {
-  pointer-events: auto;
-}
-
 /* ── Stagger children ── */
 .stagger-children > * {
   opacity: 0;

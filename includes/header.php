@@ -26,8 +26,8 @@ if (!isset($metaDescription)) $metaDescription = "Digi9 is a custom AI software 
 <body>
 <!-- Premium Tech Parallax Layers -->
 <canvas id="starfield" data-depth="0.9"></canvas>
-<div class="nebula-blob nebula-1"></div>
-<div class="nebula-blob nebula-2"></div>
+<div class="nebula-blob nebula-1" data-depth="0.6"></div>
+<div class="nebula-blob nebula-2" data-depth="0.6"></div>
 
 <nav id="navbar">
     <div class="container nav-inner">
